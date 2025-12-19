@@ -2,7 +2,7 @@
 
 A simple appointment booking web ui system developing with Vue 3 in Vite targets only for the user can book the timeslots for services and for admin, he can save his working hours according to weekday.
 
-* Note: Before setup this project, Please setup the laravel backend project. **Backend Project GitHub Repo:** (https://github.com/SAM2904/appointment-booking-frontend) *
+* Note: Before setup this project, Please setup the laravel backend project. **Backend Project GitHub Repo:** (https://github.com/SAM2904/appointment-booking-backend) *
 
 # Features
 
@@ -24,15 +24,20 @@ On the homepage, there is a button on top shows "Admin Working Hours". After cli
 3. View list working hours
 
 ## API Integration 
-This Vue Js project communicates with the Laravel APIs using Axios. **Backend project Github repo:** (https://github.com/SAM2904/appointment-booking-frontend)
+This Vue Js project communicates with the Laravel APIs using Axios. **Backend project Github repo:** (https://github.com/SAM2904/appointment-booking-backend). The backend is treated as the single source of availability and booking validation.
 
 # Notes
  - State is managed locally.
  - No routing is used as the app is small.
  - UI is intentionally minimal to focus on functionality.
 
-# Tech Pre-requisites
- - npm must be installed on your system.
+## Tech Stack & Pre-requisites 
+
+- Vue 3 (Options API)
+- Vite
+- Axios
+- HTML / CSS 
+- npm(must be installed on your system)
 
 ## Project Setup
 
@@ -56,28 +61,25 @@ appointment-booking-frontend/
 
 ├── src/
 
-│ ├── components/
+│   ├── components/
 
-│ │ ├── DatePicker.vue
+│   │   ├── DatePicker.vue
 
-│ │ ├── TimeSlots.vue
+│   │   ├── TimeSlots.vue
 
-│ │ ├── BookingForm.vue
+│   │   ├── BookingForm.vue
 
-│ │ └── AdminWorkingHours.vue
+│   │   └── AdminWorkingHours.vue
 
-│ │
-│ ├── App.vue
+│   ├── App.vue
 
-│ └── main.js
+│   └── main.js
 
-│
 ├── package.json
 
 ├── vite.config.js
 
 └── README.md
-
 
 ---
 
