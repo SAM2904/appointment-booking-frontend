@@ -17,9 +17,7 @@ On homepage, there is Datepicker for selecting booking date. After select the da
 
 ## Admin
 No Login Required.
-On the homepage, there is a button on top shows "Admin Working Hours". After click on it, you see the option for:
- - Add working hour rules
- - & view the list of saved working hour rules.
+On the homepage, there is a button on top shows "Admin Working Hours". After click on it, you see the option for Add working hour rules & view the list of saved working hour rules.
 * Flow
 1. Switch to Admin mode
 2. Add working hours
