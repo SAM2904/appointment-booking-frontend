@@ -4,9 +4,9 @@ A simple appointment booking web ui system developing with Vue 3 in Vite targets
 
 * Note: Before setup this project, Please setup the laravel backend project. **Backend Project GitHub Repo:** (https://github.com/SAM2904/appointment-booking-frontend) *
 
-## Features
+# Features
 
-# Client
+## Client
 On homepage, there is Datepicker for selecting booking date. After select the date, the available timeslots are displayed. When user choose the suitable timeslot, then he can able to book the appointment by entering his email.
 * Flow
 1. Select a date
@@ -15,7 +15,7 @@ On homepage, there is Datepicker for selecting booking date. After select the da
 4. Enter email
 5. Book appointment
 
-# Admin
+## Admin
 No Login Required.
 On the homepage, there is a button on top shows "Admin Working Hours". After click on it, you see the option for:
  - Add working hour rules
